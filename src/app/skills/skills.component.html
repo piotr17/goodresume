@@ -1,6 +1,6 @@
 <h3>Skills</h3>
 <ul>
-    <li>{{skill.name}} - valore {{skill.id}}</li>
+    <li *ngFor="let hero of heroes"><span>{{skill.name}} - valore {{skill.id}}</span></li>
 </ul>
 
 <div>
